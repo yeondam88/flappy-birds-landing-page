@@ -1,0 +1,213 @@
+/*-------------------------------------------
+                GENEAL STYLE
+-------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  
+}
+
+ul li {
+  list-style: none; 
+}
+
+
+/*-------------------------------------------
+                HEADER STYLE
+-------------------------------------------*/
+
+header {
+
+}
+
+.heading {
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;*/
+  background-color: #f16745;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.heading img {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+ul {
+  float: right;
+  /*position: absolute;
+  top: 50px;
+  right:150px;*/
+}
+
+ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+ul li:hover {
+  text-decoration: none;
+}
+
+ul li a{
+  font-family: 'Anton', sans-serif;
+  color: #fff;
+  position: relative;
+  border-bottom: 3px solid transparent;
+  text-transform: uppercase;
+}
+
+ul li a:hover {
+  font-family: 'Anton', sans-serif;
+  position: relative;
+  border-bottom: 3px solid #e32b21; 
+  color: #e32b21;
+}
+
+ul li a:active {
+  font-family: 'Anton', sans-serif;
+  position: relative;
+  border-bottom: 3px solid #e32b21; 
+  color: #e32b21; 
+}
+
+/*-------------------------------------------
+            SHARED SECTION STYLE
+-------------------------------------------*/
+
+section.container-1,
+section.container-2,
+section.container-3,
+footer {
+  padding: 50px 1%;
+  margin-top: 0;
+}
+
+/*-------------------------------------------
+                SECTION STYLE
+-------------------------------------------*/
+
+section.container-1 {
+  background-color: #ffc65d;
+}
+
+section.container-2 {
+  background-color: #7bc8a4;
+}
+
+footer.container-3 {
+  background-color: #4cc3d9;
+}
+
+#main-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container p {
+  letter-spacing: 4;
+}
+
+.large-4 {
+  text-align: left;
+  padding-top: 35px;
+}
+
+/*-------------------------------------------
+                BUTTON STYLE
+-------------------------------------------*/
+
+.btn {
+  background: #cb4e4e;
+	color: #fff;
+	box-shadow: 0 6px #ab3c3c;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+  border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: 0.3s;
+}
+
+.btn-2 {
+  border-radius: 5px;
+}
+
+.btn-2:hover {
+	box-shadow: 0 4px #ab3c3c;
+	top: 2px;
+}
+
+
+.btn-2:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
+
+
+.container {
+  margin-top: 150px;
+}
+
+
+
+/*-------------------------------------------
+                ICON STYLE
+-------------------------------------------*/
+
+.fa-code,
+.fa-trophy,
+.fa-bullhorn {
+  text-align: left;
+  font-size: 1.5em;
+  color: #3498db;
+}
+
+.fa-facebook,
+.fa-github,
+.fa-twitter {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: 0.6s ease-out;
+}
+
+.fa-facebook:hover,
+.fa-github:hover,
+.fa-twitter:hover {
+  transform: scale(1.5,1.5);
+  transition: 0.4s linear;
+  /*font-size: 40px;*/
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.fa-facebook:active,
+.fa-github:active,
+.fa-twitter:active {
+  font-size: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+

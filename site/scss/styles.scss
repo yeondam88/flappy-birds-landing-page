@@ -1,3 +1,33 @@
+@import "normalize";
+//@import "node-bourbon/node_modules/bourbon";
+//@import "neat/neat";
+//@import "base/base";
+//@import "components/*";
+//@import "patterns/*";
 body {
-  
+    #main-container {
+        text-align: center;
+        .logo {
+            img {
+                margin-top: 40px;
+            }
+        }
+    }
+    #section-1 {
+        text-align: center;
+        .play-btn {
+            margin: 30px auto;
+            width: 20px;
+            padding: 20px 40px;
+            background-color: #2ecc71;
+        }
+        .social-share-btn {
+            .socials {
+                li {
+                    margin-top: 40px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
 }

@@ -1,63 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Flappy Bird!</title>
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-  <link rel="stylesheet" href="normalize.css">
+  <title>Flappy!</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header id="main-container">
-    <div class="logo">
-      <img src="img/Flappy-Bird.png" alt="Flappy Birds">
-    </div>    
+  <header class="main-container">
+    <div class="heading small-12 large-12 columns">
+      <nav class="large-12 columns">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#start-button">Play</a></li>
+        </ul>
+      </nav>
+      <img src="img/flappy-bird-logo.png" alt="flappy-bird-logo">  
+    </div>
+    
   </header>
   
-  <section id="section-1">
-    <div class="play-btn">
-      <h4>Play</h4>
-    </div>
-    <div class="social-share-btn">
-      <ul class="socials">
-        <li>Facebook</li>
-        <li>Twitter</li>
-        <li>Google+</li>
-      </ul>
+  <a name="about"></a>
+  <section class="container-1">
+    <div class="row">    
+      <div class="large-4 columns"><i class="fa fa-code"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro est, illum similique aperiam, recusandae rem iure doloremque ducimus odit veniam quae modi nostrum quidem ipsam quo aliquam nemo dolor quis!</p>
+      </div>
+      <div class="large-4 columns"><i class="fa fa-trophy"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam fuga officiis minus eos corporis, laudantium ipsum reprehenderit, nisi dolores repellat, hic similique tempore, pariatur alias deserunt velit? Eveniet fugit, odio.</p>
+      </div>
+      <div class="large-4 columns"><i class="fa fa-bullhorn"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum harum facilis tenetur quidem, nihil commodi laudantium debitis tempore deleniti facere. Soluta et omnis placeat, maiores laudantium laborum ad atque rem.</p>
+      </div>
     </div>
   </section>
 
-  <section id="section-2">
-    <div class="email-form">
-      <div id="wufoo-z1nwuakh011vnqm">
-Fill out my <a href="https://giyen9088.wufoo.com/forms/z1nwuakh011vnqm">online form</a>.
-</div>
-<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
-<script type="text/javascript">var z1nwuakh011vnqm;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'giyen9088',
-'formHash':'z1nwuakh011vnqm',
-'autoResize':true,
-'height':'420',
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { z1nwuakh011vnqm = new WufooForm();z1nwuakh011vnqm.initialize(options);z1nwuakh011vnqm.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
-
+  <section class="container-2">
+    <div class="row">
+      <div class="large-8 columns">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/fQoJZuBwrkU" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="large-4 columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum dolor quia sint repellendus, facilis minus impedit velit consequuntur tempore! Provident incidunt temporibus quis a commodi repellat quae recusandae aperiam. Minima.</p>
+      </div>
     </div>
   </section>
-  
-  <footer>
+
+  <footer class="container-3">
+    <div class="row">
+      <div class="large-12 columns">
+        <a name="start-button"></a>
+        <button class="btn btn-2">
+          Game Start!
+        </button>
+      </div>
+    
+      <div class="social-share large-12 columns">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-github"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+    </div>
   </footer>
+
 </body>
+
 </html>
