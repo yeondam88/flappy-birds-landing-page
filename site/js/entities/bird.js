@@ -1,4 +1,4 @@
-var graphicsComponent = require("../components/graphics/bird");
+var graphicsComponent = require("../components/graphics/bird.js");
 
 var Bird = function(){
   console.log("Creating Bird entity");
